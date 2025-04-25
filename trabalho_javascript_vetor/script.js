@@ -88,7 +88,7 @@ sort( 2, 1 => 2 - 1); 1
 
 console.log(valores); */
 
-/*let sistemas = [
+let sistemas = [
     "Android",
     "iOS",
     "macOS",
@@ -97,8 +97,22 @@ console.log(valores); */
 ]
 
 //inverte os elementos de uma array(vetor)
-sistemas.reverse();
+//sistemas.reverse();
 
-console.log(sistemas);/*
+//retorna o primeiro indice e que o elemento
+//é encontrado no vetor(array)
+sistemas.indexOf("Ios");
+
+console.log(sistemas);
+
+console.log(sistemas.indexOf("ios"));
+
+//IMPRIMIR
+console.log(sistemas[0]);
+
+//jeito certo de imprimir
+
+//CONSOlE.LOG(SISTEMAS[sistemas.indexof("macOS")]);
 
 
+                  
